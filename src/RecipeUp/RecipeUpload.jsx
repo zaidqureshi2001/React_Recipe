@@ -14,8 +14,10 @@ const RecipeUpload = ({onUpload}) => {
     setTitle('');
     setInstruction('');
     setIngredients('');
+   
     
   }
+  
   return (
   <div className="upload_container">
     <h2>Upload Your Recipe</h2>

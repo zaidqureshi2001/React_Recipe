@@ -26,7 +26,7 @@ const Parent = () => {
   return (
   <div className="parent_container">
     <div className="inputbox">
-      <input type="text" name="" id="inptext" placeholder='Search Box' onChange={(e)=>setSearchQuery(e.target.value)}/>
+      <input type="text" name="" id="inptext" placeholder='Search box' onChange={(e)=>setSearchQuery(e.target.value)}/>
     </div>
  
     <RecipeUpload onUpload={handleNewrecipe}/>

@@ -6,6 +6,9 @@
     border-radius: 15px;
     font-size: 16px;
     font-family: Arial, sans-serif;
+    position: relative;
+    left: 40%;
+
 }
 input[type="text"] {
     width: 100%;

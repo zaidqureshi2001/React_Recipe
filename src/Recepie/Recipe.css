@@ -1,0 +1,35 @@
+.recipe {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    display: flex;
+  }
+  
+  .recipe h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .recipe_ingred, .recipe_instr {
+    margin-bottom: 20px;
+  }
+  
+  .recipe_ingred p, .recipe_instr p {
+    font-size: 1.2em;
+    line-height: 1.5;
+  }
+  
+  .recipe_ingred {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+  }
+  
+  .recipe_instr {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+  }
+  
